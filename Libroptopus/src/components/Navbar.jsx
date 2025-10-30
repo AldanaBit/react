@@ -8,12 +8,11 @@ function Navbar() {
 
     return(
         <>
-        <nav>
+        <nav style={{backgroundColor: "#CA313F", color: "white", padding: "10px"}}>
             <div>
 
-                <a href=""></a>
 
-                <ul>
+                <ul style={{listStyle: "none", display: "flex", justifyContent: "space-around", margin: 0}}>
                     <li><Link to="/">Inicio</Link></li>
                     <li><Link to="/catalogo">Catálogo</Link></li>
                     <li><Link to="/recomendaciones">Recomendaciones</Link></li>
